@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Pro</title>
+	<link rel="icon" href="./img/logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://maxst.icons8.com/vue-static/landings/line-awesome/line-awesome/1.3.0/css/line-awesome.min.css">
+</head>
+<body>
+	<input type="checkbox" id="nav-toggle">
+    <div class="sidebar">
+        <div class="sidebar-brand">
+            <h2><img class="logo" src="./img/logo.png" alt="Admin Pro Logo"></span><span>Admin <span class="logoSpan">Pro</span></span></h2>
+        </div>
+																		<!-- MENU -->
+        <div class="sidebar-menu">
+            <ul>
+                <li>
+                    <a href="" class="active"><span class="las la-home"></span><span>Dashboard</span></a>
+                </li>
+                <li>
+                    <a href=""><span class="las la-folder"></span><span>Projects</span></a>
+                </li>
+                <li>
+                    <a href=""><span class="las la-users"></span><span>Customers</span></a>
+                </li>
+                <li>
+                    <a href=""><span class="las la-shopping-bag"></span><span>Orders</span></a>
+                </li>
+                <li>
+                    <a href=""><span class="las la-receipt"></span><span>Inventory</span></a>
+                </li>
+                <li>
+                    <a href=""><span class="las la-user-circle"></span><span>Accounts</span></a>
+                </li>
+                <li>
+                    <a href=""><span class="las la-clipboard-list"></span><span>Tasks</span></a>
+                </li>
+            </ul>
+        </div>
+    </div>
+																		<!-- MAIN -->
+    <div class="main-content">
+        <header>
+            <h2>
+																		<!-- TOP -->
+				
+                <label for="nav-toggle">
+                    <span class="las la-bars"></span>
+                </label>
+            </h2>
+            <div class="search-wrapper">
+                <span class="las la-search"></span>
+                <input type="search" placeholder="Search...">
+            </div>
+            <div class="user-wrapper">
+                <img src="img/astronaut.png" width="60px" height="50px" alt="User">
+                <div>
+                    <h4>John Doe</h4>
+                    <small>Super admin</small>
+                </div>
+            </div>
+        </header>
+																		<!-- CARDS -->
+        <main>
+            <div class="cards">
+                <div class="card-single">
+                    <div>
+                        <h1>54</h1>
+                        <span>Customers</span>
+                    </div>
+                    <div>
+                        <span class="las la-users"></span>
+                    </div>
+                </div>
+                <div class="card-single">
+                    <div>
+                        <h1>79</h1>
+                        <span>Projects</span>
+                    </div>
+                    <div>
+                        <span class="las la-folder"></span>
+                    </div>
+                </div>
+                <div class="card-single">
+                    <div>
+                        <h1>124</h1>
+                        <span>Orders</span>
+                    </div>
+                    <div>
+                        <span class="las la-shopping-bag"></span>
+                    </div>
+                </div>
+                <div class="card-single">
+                    <div>
+                        <h1>$6k</h1>
+                        <span>Income</span>
+                    </div>
+                    <div>
+                        <span class="lab la-google-wallet"></span>
+                    </div>
+                </div>
+            </div>
+																		<!-- PROJECTS -->
+            <div class="recent-grid">
+				<div class="projects">
+					<div class="card">
+						<div class="card-header">
+							<h3>Recent Projects</h3>
+							<button>See All <span class="las la-arrow-right"></span></button>
+						</div>
+						<div class="card-body">
+							<div class="table-responsive">
+								<table width=100%>
+								<thead>
+									<tr>
+										<td>Project Title</td>
+										<td>Department</td>
+										<td>Status</td>
+									</tr>
+								</thead>
+								<tbody>
+									<tr>
+										<td>UI/UX Design</td>
+										<td>UI Team</td>
+										<td><span class="status progress"></span>In Progress</td>
+									</tr>
+									<tr>
+										<td>Web Development</td>
+										<td>Frontend</td>
+										<td><span class="status review"></span>Review</td>
+									</tr>
+									<tr>
+										<td>Shopping App</td>
+										<td>Mobile Team</td>
+										<td><span class="status pending"></span>Pending</td>
+									</tr>
+								</tbody>
+							</table>
+							</div>
+						</div>
+					</div>
+				</div>
+																		<!-- CUSTOMERS -->
+				<div class="customers">
+					<div class="card">
+						<div class="card-header">
+							<h3>Customers</h3>
+							<button>See All <span class="las la-arrow-right"></span></button>
+						</div>
+						<div class="card-body">
+							<div class="customer">
+								<div class="info">
+									<img src="img/customer.png" width="40px" height="40px" alt="Customer">
+									<div>
+										<h4>John Smith</h4>
+										<small>New Customer</small>
+									</div>
+								</div>
+								<div class="contact">
+									<span class="las la-user-circle"></span>
+									<span class="las la-comment"></span>
+									<span class="las la-phone"></span>
+								</div>
+							</div>
+							<div class="customer">
+								<div class="info">
+									<img src="img/customer.png" width="40px" height="40px" alt="Customer">
+									<div>
+										<h4>Richard Roe</h4>
+										<small>New Customer</small>
+									</div>
+								</div>
+								<div class="contact">
+									<span class="las la-user-circle"></span>
+									<span class="las la-comment"></span>
+									<span class="las la-phone"></span>
+								</div>
+							</div>
+							<div class="customer">
+								<div class="info">
+									<img src="img/customer.png" width="40px" height="40px" alt="Customer">
+									<div>
+										<h4>Luis Hamm</h4>
+										<small>New Customer</small>
+									</div>
+								</div>
+								<div class="contact">
+									<span class="las la-user-circle"></span>
+									<span class="las la-comment"></span>
+									<span class="las la-phone"></span>
+								</div>
+							</div>
+							<div class="customer">
+								<div class="info">
+									<img src="img/customer.png" width="40px" height="40px" alt="Customer">
+									<div>
+										<h4>Juan Perez</h4>
+										<small>New Customer</small>
+									</div>
+								</div>
+								<div class="contact">
+									<span class="las la-user-circle"></span>
+									<span class="las la-comment"></span>
+									<span class="las la-phone"></span>
+								</div>
+							</div>
+							<div class="customer">
+								<div class="info">
+									<img src="img/customer.png" width="40px" height="40px" alt="Customer">
+									<div>
+										<h4>Joe Bloggs</h4>
+										<small>New Customer</small>
+									</div>
+								</div>
+								<div class="contact">
+									<span class="las la-user-circle"></span>
+									<span class="las la-comment"></span>
+									<span class="las la-phone"></span>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+        </main>
+    </div>
+</body>
+</html>
